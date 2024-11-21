@@ -1,0 +1,531 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    padding: 20px 60px;
+}
+.head{
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    display: flex;
+    justify-items: center;
+}
+.logo{
+    width: 177px;
+    height: 48px;
+}
+.navigation{
+    word-spacing: 40px;
+    margin: auto;
+}
+.navigation a{
+    text-align: center;
+    text-decoration: none;
+    color: #1f1f1f;
+    font-size: 16px;
+    font-weight: 600px;
+}
+.head button{
+    width: 150px;
+    color: #fff;
+    background-color: #1f1f1f;
+}
+.hero-content{
+    width: 100%;
+    height: 550px;
+    margin-top: 60px;
+    position: relative;
+}
+.text h1{
+    font-size: 100px;
+}
+.text p{
+    font-size: 18px;
+    width: 600px;
+}
+.text button{
+    width: 170px;
+    height: 50px;
+    color: #fff;
+    background-color: #1f1f1f;
+    margin-top: 40px;
+}
+.feedback{
+    width: 600px;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.Project{
+    height: 90px;
+    width: 120px;
+}
+.clients{
+    height: 90px;
+    width: 120px;
+}
+.styles{
+    height: 90px;
+    width: 120px;
+}
+.feedback p{
+    font-size: 40px;
+}
+.Interior-img{
+    width: 700px;
+    height: 660px;
+    position: absolute;
+    transform: scale(0.5);
+    background-repeat: no-repeat;
+    top: -165px;
+    right: -175px;
+}
+.border{
+    width: 150px;
+    height: 130px;
+    border: 1px solid #666;
+    position: absolute;
+    bottom: 170px;
+    right: 450px;
+}
+.interior-img2{
+    width: 1050px;
+    height: 550px;
+    position: absolute;
+    transform: scale(0.5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: -128px;
+    right: -210px;
+}
+.interior-arrow img{
+    padding: 10px 35px;
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.our-services{
+    width: 100%;
+    height: 400px;
+    padding: 20px 60px;
+    margin-top: 60px;
+}
+.our-servise-head{
+    width: 500px;
+    height: 60px;
+    display: flex;
+}
+.our-servise-head p{
+    margin-left: 20px;
+    font-size: 40px;
+    font-weight: 600;
+}
+.vertical-line{
+    border: 1px solid #1f1f1f;
+    width: 70px;
+    height: 0px;
+    margin-top: 25px;
+}
+.our-services-designs{
+    width: 100%;
+    height: 200px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.our-services-lighting{
+    width: 350px;
+    height: 180px;
+    display: flex;
+    margin-top: 10px;
+}
+.our-services-lighting h3{
+    width: 200px;
+    height: 40px;
+    margin-left: 20px;
+}
+.our-services-lighting p{
+    width: 260px;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.our-services-interior{
+    width: 350px;
+    height: 180px;
+    display: flex;
+    margin-top: 10px;
+}
+.our-services-interior h3{
+    width: 200px;
+    height: 40px;
+    margin-left: 20px;
+}
+.our-services-interior p{
+    width: 260px;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.our-services-outdoor{
+    width: 350px;
+    height: 180px;
+    display: flex;
+    margin-top: 10px;
+}
+.our-services-outdoor h3{
+    width: 200px;
+    height: 40px;
+    margin-left: 20px;
+}
+.our-services-outdoor p{
+    width: 260px;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.design-card{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    /* border: 1px solid blueviolet; */
+}
+.design-card img{
+    width: 600px;
+    height: 500px;
+}
+.design-card-content{
+    width: 600px;
+    height: 500px;
+    /* border: 1px solid red; */
+}
+.design-card-content h2{
+    width: 600px;
+    height: 80px;
+    font-size: 35px;
+    /* border: 1px solid blueviolet; */
+}
+.design-card-content p{
+    width: 600px;
+    height: 80px;
+    /* border: 1px solid yellow; */
+    margin-top: 60px;
+    font-size: 22px;
+}
+.design-card-content-nav1{
+    width: 600px;
+    height: 40px;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    box-shadow: 0px 1px #dadada;
+}
+.design-card-content-nav1 img{
+    width: 20px;
+    height: 20px;
+}
+.design-card-content-nav2{
+    width: 600px;
+    height: 40px;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    box-shadow: 0px 1px #dadada;
+}
+.design-card-content-nav2 img{
+    width: 20px;
+    height: 20px;
+}
+.design-card-content button{
+    width: 170px;
+    height: 50px;
+    color: #fff;
+    background-color: #1f1f1f;
+    margin-top: 57px;
+}
+.design-card2{
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid red; */
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.design-card2-content{
+    width: 600px;
+    height: 600px;
+    /* border: 1px solid blueviolet; */
+}
+.design-card2 img{
+    width: 600px;
+    height: 600px;
+    /* border: 1px solid black; */
+}
+.design-card2-content h2{
+    width: 600px;
+    height: 80px;
+    font-size: 35px;
+    /* border: 1px solid black; */
+}
+.design-card2-content2{
+    width: 600px;
+    height: 500px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    /* border:1px solid greenyellow; */
+}
+.card2-line{
+    width: 60px;
+    height: 500px;
+}
+.card2-line img{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+.card2-line p{
+    width: 1px;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 1px solid #9b9b9b;
+}
+.card2-text{
+    width: 460px;
+    height: 500px;
+    font-size: 20px;
+    margin-top: 20px;
+    /* border: 1px solid red; */
+}
+.card2-text h4{
+    margin-top: 20px;
+    /* border: 1px solid yellow; */
+}
+.testimonial-section{
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid green; */
+    position: relative;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.testimonial-section img{
+    width: 600px;
+    height: 500px;
+    /* border: 1px solid red; */
+}
+.testimonial-section-head{
+    width: 600px;
+    height: auto;
+    /* border: 1px solid blue; */
+}
+.testimonial-section-head h2{
+    font-size: 35px;
+}
+.testimony-card{
+    position: absolute;
+    width: 1175px;
+    height: 450px;
+    /* border: 1px solid yellow; */
+    bottom: 0px;
+    left: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.testimony-card1{
+    width: 565px;
+    height: 450px;
+    border-top: 15px solid white;
+    border-left: 15px solid #fff;
+    background-image: url("assets/Testamonial\ 1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.testimony-card1 img{
+    width: 62px;
+    height: 62px;
+    position: relative;
+    bottom: -330px;
+    left: 60px;
+    border: none;
+}
+.testimony-card2{
+    width: 565px;
+    height: 450px;
+    border-top: 15px solid #fff;
+    border-left: 15px solid #fff;
+    background-image: url("assets/Testamonial\ 2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.testimony-card2 img{
+    width: 62px;
+    height: 62px;
+    position: relative;
+    bottom: -330px;
+    left: 60px;
+    border: none;
+}
+.testimonial-arrow{
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    /* border: 1px solid green; */
+    bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.testimonial-arrow1{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    /* border: 1px solid blueviolet; */
+    padding: 10px;
+    background-color: #f1f1f1;
+    bottom: 10px;
+}
+.testimonial-arrow1 img{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-color: #f1f1f1;
+    border: none;
+}
+.testimonial-arrow2{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    /* border: 1px solid brown; */
+    right: 50px;
+    bottom: 10px;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+.testimonial-arrow2 img{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-color: #f1f1f1;
+    border: none;
+}
+.newsletter-wrap{
+    width: 650px;
+    height: 400px;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 80px;
+}
+.newsletter-wrap h1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600px;
+    margin-bottom: 41px;
+    width: 600px;
+    /* border: 1px solid green; */
+}
+.newsletter-wrap p{
+    text-align: center;
+    font-weight: 600px;
+    margin-bottom: 63px;
+    width: 600px;
+    /* border: 1px solid red; */
+}
+.Subscribe{
+    display: flex;
+    border: none;
+}
+.Subscribe input{
+    width: 400px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 600px;
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+    border: none;
+    box-shadow: 0px 4px 16px 0px #00000026
+}
+.Subscribe button{
+    padding: 10px 66px;
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+.input-container{
+    position: relative;
+}
+.input-container img{
+    position: absolute;
+    left: 30px;
+    top: 10px;
+}
+.footer-wrap{
+    width: 100%;
+    height: 400px;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-around;
+    background-color: #313131;
+}
+.vivadeco{
+    width: 300px;
+    height: 300px;
+    margin-top: 60px;
+    /* border: 1px solid black; */
+}
+.vivadeco p{
+    width: 250px;
+    height: 72px;
+    margin-top: 40px;
+    color: #d1d1d1;
+    /* border: 1px solid red; */
+}
+.footer-social-links{
+    width: 180px;
+    height: 43px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid blueviolet; */
+}
+.footer-ourservices{
+    width: 260px;
+    height: 300px;
+    margin-top: 60px;
+    /* border: 1px solid blue; */
+}
+.footer-ourservices h3{
+    width: auto;
+    height: 40px;
+    color: #ffffff;
+    font-size: 23px;
+}
+.Interior-design{
+    margin-top: 18px;
+
+}
+.Interior-design a{
+    text-decoration: none;
+    color: #d1d1d1;
+}
+.footer-ourservices p{
+    width: 250px;
+    height: 72px;
+    margin-top: 40px;
+    color: #d1d1d1;
+}
